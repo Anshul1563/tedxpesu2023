@@ -6,8 +6,8 @@ import RightBanner from "../public/Images/right_banner.png";
 function About() {
 	return (
 		<div className="flex h-screen">
-			<div className="px-40 font-work flex flex-col justify-between py-20">
-				<div className="">
+			<div className="px-28 font-work flex flex-col gap-16 py-20">
+				<div className="flex flex-col gap-4">
 					<div>
 						<p className="font-bold text-3xl">What is a</p>
 						<p className="font-bold text-5xl">TEDx Event?</p>
@@ -30,7 +30,7 @@ function About() {
 						TED.
 					</div>
 				</div>
-				<div>
+				<div className="flex flex-col gap-4">
 					<div>
 						<p className="font-bold text-3xl">What is </p>
 						<p className="font-bold text-5xl">TEDx PESU 2023?</p>
@@ -42,9 +42,9 @@ function About() {
 						PESU 2023 gives you an opportunity to witness live TEDx
 						talks, this time centered around the theme of The Indian
 						Tapestry Of Thought delivered by the greatest of Indian
-						minds. <br/> Join us on the fourth of November for an evening
-						filled with captivating talks on intriguing topics and
-						much more!!
+						minds. <br /> Join us on the fourth of November for an
+						evening filled with captivating talks on intriguing
+						topics and much more!!
 					</div>
 				</div>
 			</div>
