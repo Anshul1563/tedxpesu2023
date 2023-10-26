@@ -5,14 +5,14 @@ import RightBanner from "../public/Images/right_banner.png";
 
 function About() {
 	return (
-		<div className="flex h-screen">
-			<div className="px-28 font-work flex flex-col gap-16 py-20">
-				<div className="flex flex-col gap-4">
-					<div>
-						<p className="font-bold text-3xl">What is a</p>
-						<p className="font-bold text-5xl">TEDx Event?</p>
-					</div>
-					<div className="font-semibold">
+		<div className="flex h-fit">
+			<div className="xl:px-28 lg:px-20 phone:px-8 px-2 font-work flex flex-col phone:gap-16 gap-8 py-20">
+				<div className="flex flex-col phone:gap-4">
+					<p className="font-bold text-xl lg:text-3xl">What is a</p>
+					<p className="font-bold text-3xl lg:text-5xl">
+						TEDx Event?
+					</p>
+					<div className="font-semibold text-slate-800 text-xs phone:text-sm lg:text-base">
 						TEDx, a grassroots initiative, embodies the core
 						principles of TED - technology, entertainment, and
 						design which are the driving forces shaping our world
@@ -30,12 +30,12 @@ function About() {
 						TED.
 					</div>
 				</div>
-				<div className="flex flex-col gap-4">
-					<div>
-						<p className="font-bold text-3xl">What is </p>
-						<p className="font-bold text-5xl">TEDx PESU 2023?</p>
-					</div>
-					<div className="font-semibold">
+				<div className="flex flex-col phone:gap-4">
+					<p className="font-bold text-xl lg:text-3xl">What is </p>
+					<p className="font-bold text-3xl lg:text-5xl">
+						TEDx PESU 2023?
+					</p>
+					<div className="font-semibold text-slate-800 text-xs phone:text-sm lg:text-base">
 						TEDx is an independently organized TED event which
 						exposes you to a multitude of ideas. Keeping in mind the
 						TED slogan of &apos;Ideas worth Spreading &apos;, TEDx
@@ -48,7 +48,12 @@ function About() {
 					</div>
 				</div>
 			</div>
-			<Image alt="Right_banner" src={RightBanner} />
+			<div className="h-full w-[340px] shrink-0 hidden sm:block"></div>
+			<Image
+				className="fixed h-screen w-fit right-0 hidden sm:block"
+				alt="Right_banner"
+				src={RightBanner}
+			/>
 		</div>
 	);
 }
