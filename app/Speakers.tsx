@@ -1,5 +1,3 @@
-import React from "react";
-
 function Speakers() {
 	const speakers = [1, 2, 3];
 	const speakerElements = speakers.map((speaker, ind) => {
@@ -12,9 +10,7 @@ function Speakers() {
 	});
 	return (
 		<div className="flex flex-col gap-8">
-			<div className="text-5xl font-work font-bold">
-				SPEAKERS
-			</div>
+			<div className="text-5xl font-work font-bold">SPEAKERS</div>
 			<div className="flex gap-8 flex-wrap justify-between">
 				{speakerElements}
 			</div>

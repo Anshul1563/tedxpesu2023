@@ -34,6 +34,9 @@ const config: Config = {
       fontFamily: {
         work: ['var(--font-work-sans)'],
       },
+      colors: {
+        "tedx": "#EB0028"
+      }
     },
   },
   plugins: [],

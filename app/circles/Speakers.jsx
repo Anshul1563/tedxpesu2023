@@ -35,8 +35,7 @@ const Speakers = () => {
 		},
 		{
 			name: "Dr. NH Ravindranath",
-			title:
-				"Professor(retd.) at centre for sustainable technologies, IISC,Bengaluru",
+			title: "Professor(retd.) at centre for sustainable technologies, IISC,Bengaluru",
 			image: ravindra,
 		},
 		{
@@ -56,14 +55,12 @@ const Speakers = () => {
 		},
 		{
 			name: "Shubhashis Dey",
-			title:
-				"Director - Clean Energy Finance Program in Shakti Sustainable Energy Foundation",
+			title: "Director - Clean Energy Finance Program in Shakti Sustainable Energy Foundation",
 			image: shubha,
 		},
 		{
 			name: "Yashima Jain",
-			title:
-				"Technical Specialist - Technical Development, Green Business Certification Institute (GBCI)",
+			title: "Technical Specialist - Technical Development, Green Business Certification Institute (GBCI)",
 			image: yashima,
 		},
 	];
@@ -94,7 +91,9 @@ const Speakers = () => {
 	return (
 		<div>
 			<div className="flex flex-col items-center gap-16 bg-black">
-				<div className="text-7xl font-extrabold text-[#EB0028]">Speakers</div>
+				<div className="text-7xl font-extrabold text-tedx">
+					Speakers
+				</div>
 				<div className="grid w-full grid-cols-1 items-end justify-items-center gap-y-20 p-4 font-['Helvetica'] phone:p-0 md:grid-cols-2 xl:grid-cols-3 phone:pb-10">
 					{speakerElements}
 				</div>

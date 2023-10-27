@@ -1,11 +1,12 @@
 import Image from "next/image";
-import RightBannerAlt from "../public/Images/rightBannerAlt.png";
+import RightBannerAlt from "../public/images/rightBannerAlt.png";
 import About from "./About";
 import Venue from "./Venue";
 import AltVenue from "./AltVenue";
 import Speakers from "./Speakers";
 
 import type { Metadata } from "next";
+import Tickets from "./Tickets";
 
 export const metadata: Metadata = {
 	title: "TEDxPESU2023",
@@ -26,6 +27,7 @@ export default function Home() {
 				/>
 			</div>
 			<AltVenue />
+			<Tickets />
 		</>
 	);
 }

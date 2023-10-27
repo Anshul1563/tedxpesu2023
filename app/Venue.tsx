@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useEffect, useRef } from "react"
-import VenueImg from '@/public/Images/mrd.png'
+import VenueImg from '@/public/images/mrd.png'
 
 export default function Venue() {
     const imageRef = useRef<HTMLImageElement | null>(null)
