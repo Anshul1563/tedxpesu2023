@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RightBannerAlt from "../public/images/rightBannerAlt.png";
+import RightBannerAlt from "../public/Images/RightBannerAlt.png";
 import About from "./About";
 import Venue from "./Venue";
 import AltVenue from "./AltVenue";
