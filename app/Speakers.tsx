@@ -1,17 +1,27 @@
+import Image from "next/image";
+
 function Speakers() {
-	const speakers = [1, 2, 3];
+	const speakers = ["f1", "f2", "f3", "f4"];
 	const speakerElements = speakers.map((speaker, ind) => {
 		return (
-			<div
-				key={ind}
-				className=" aspect-[9/12] h-96 rounded-tr-xl rounded-bl-xl bg-no-repeat bg-cover bg-[url('../public/Images/CardBackground.svg')]"
-			></div>
+			<div key={ind}>
+				<Image
+					src={`/images/speakers/${speaker}.svg`}
+					width={380}
+					height={300}
+					alt={`Speaker ${ind}`}
+				/>
+			</div>
 		);
 	});
 	return (
-		<div className="flex flex-col gap-8">
-			<div className="text-5xl font-work font-bold">SPEAKERS</div>
-			<div className="flex gap-8 flex-wrap justify-between">
+		<div className="flex flex-col gap-4 phone:gap-8 items-center phone:items-start">
+			<div className="phone:text-5xl text-3xl font-work font-bold text-tedx">
+				SPEAKERS
+			</div>
+			<div className="h-1 w-48 bg-tedx -mt-4" />
+			<div className="phone:flex hidden gap-8">{speakerElements}</div>
+			<div className="phone:hidden flex flex-col gap-8 mt-4 px-12">
 				{speakerElements}
 			</div>
 		</div>

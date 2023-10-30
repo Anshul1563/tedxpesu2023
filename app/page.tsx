@@ -7,6 +7,7 @@ import Speakers from "./Speakers";
 
 import type { Metadata } from "next";
 import Tickets from "./Tickets";
+import PastEvents from "./PastEvents";
 
 export const metadata: Metadata = {
 	title: "TEDxPESU2023",
@@ -16,7 +17,7 @@ export default function Home() {
 	return (
 		<>
 			<div className="flex relative">
-				<div className="flex-col flex xl:px-28  lg:px-20 phone:px-8 px-2 py-20 gap-20">
+				<div className="flex-col flex xl:px-16  lg:px-20 phone:px-8 py-20 gap-20">
 					<Speakers />
 					<About />
 				</div>
@@ -28,6 +29,8 @@ export default function Home() {
 			</div>
 			<AltVenue />
 			<Tickets />
+			<PastEvents />
+		
 		</>
 	);
 }
