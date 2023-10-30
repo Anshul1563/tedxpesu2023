@@ -7,7 +7,7 @@ function Speakers() {
 			<div key={ind}>
 				<Image
 					src={`/images/speakers/${speaker}.svg`}
-					width={380}
+					width={350}
 					height={300}
 					alt={`Speaker ${ind}`}
 				/>
@@ -20,7 +20,7 @@ function Speakers() {
 				SPEAKERS
 			</div>
 			<div className="h-1 w-48 bg-tedx -mt-4" />
-			<div className="phone:flex hidden gap-8">{speakerElements}</div>
+			<div className="phone:flex hidden gap-24">{speakerElements}</div>
 			<div className="phone:hidden flex flex-col gap-8 mt-4 px-12">
 				{speakerElements}
 			</div>
