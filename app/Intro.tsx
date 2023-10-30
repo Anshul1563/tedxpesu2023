@@ -3,7 +3,7 @@ function Intro() {
 	return (
 		<>
 			<video
-				className="z-20 h-screen w-full bg-black phone:hidden"
+				className="z-20 max-h-screen w-full bg-black phone:hidden"
 				src="/videos/intro.mp4"
 				autoPlay
 				muted
