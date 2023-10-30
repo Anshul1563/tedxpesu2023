@@ -1,7 +1,5 @@
-import ExternalHorizontal from "@/public/images/tickets/External_horizontal.png";
-import InternalHorizontal from "@/public/images/tickets/Internal_horizontal.png";
-import InternalVertical from "@/public/images/tickets/Internal_vertical.png";
-import ExternalVertical from "@/public/images/tickets/External_vertical.png";
+import ExternalHorizontal from "@/public/Images/tickets/External_horizontal.png";
+import InternalHorizontal from "@/public/Images/tickets/Internal_horizontal.png";
 
 import Image from "next/image";
 

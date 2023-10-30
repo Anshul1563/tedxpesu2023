@@ -1,10 +1,10 @@
 import Image, { StaticImageData } from "next/image"
-import HeroImg from "@/public/Images/circles/hero.png"
-import TagsImg from "@/public/Images/circles/tags.png"
-import MandalaImg from "@/public/Images/circles/mandala.png"
-import DescImg from "@/public/Images/circles/desc.png"
-import SpeakerHeaderImg from "@/public/Images/circles/SpeakerHeader.png"
-import SpeakerBGImg from "@/public/Images/circles/SpeakerBG.png"
+import HeroImg from "@/public/images/circles/hero.png"
+import TagsImg from "@/public/images/circles/tags.png"
+import MandalaImg from "@/public/images/circles/mandala.png"
+import DescImg from "@/public/images/circles/desc.png"
+import SpeakerHeaderImg from "@/public/images/circles/SpeakerHeader.png"
+import SpeakerBGImg from "@/public/images/circles/SpeakerBG.png"
 
 import apurba from "../../assets/images/circles/ApurbaMitra.jpg";
 import ravindra from "../../assets/images/circles/DrNHRavindranath.jpeg";
