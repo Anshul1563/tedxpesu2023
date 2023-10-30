@@ -49,7 +49,7 @@ const Speakers = () => {
                         <div className="text">
                         Nakul Abhyankar is a music composer, playback singer and sound engineer. 
                         He has worked with renowned musicians such as A.R.Rahman and Raghu Dixit and 
-                        also got the opportunity to be a part of A.R. Rahman's jazz band, Nafs. An 
+                        also got the opportunity to be a part of A.R. Rahman&apos;s jazz band, Nafs. An 
                         alumnus of NIT Surathkal, he spent his years exploring and experimenting with 
                         different genres of music. In the year 2009, he was the title winner of the 
                         famous reality show Sa Re Ga Ma Pa Kannada and finished among the top nine in 
