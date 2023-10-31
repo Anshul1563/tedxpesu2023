@@ -1,16 +1,39 @@
-import Image from "next/image";
+import {
+	Dialog,
+	DialogContent,
+	DialogDescription,
+	DialogFooter,
+	DialogHeader,
+	DialogTitle,
+	DialogTrigger,
+} from '@/components/ui/dialog';
+import Image from 'next/image';
 
 function Speakers() {
-	const speakers = ["f1", "f2", "f3", "f4"];
+	const speakers = ['f1', 'f2', 'f3', 'f4'];
 	const speakerElements = speakers.map((speaker, ind) => {
 		return (
 			<div key={ind}>
-				<Image
-					src={`/images/speakers/${speaker}.svg`}
-					width={350}
-					height={300}
-					alt={`Speaker ${ind}`}
-				/>
+				<Dialog>
+					<DialogTrigger>
+						<Image
+							src={`/images/speakers/${speaker}.svg`}
+							width={350}
+							height={300}
+							alt={`Speaker ${ind}`}
+						/>
+					</DialogTrigger>
+					<DialogContent>
+						<DialogHeader>
+							<DialogTitle>Title: Speaker {ind}</DialogTitle>
+							<DialogDescription>
+								Speaker Description
+							</DialogDescription>
+						</DialogHeader>
+
+						<DialogFooter>Dialog Footer</DialogFooter>
+					</DialogContent>
+				</Dialog>
 			</div>
 		);
 	});
